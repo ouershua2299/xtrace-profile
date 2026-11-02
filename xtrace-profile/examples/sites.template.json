@@ -1,0 +1,23 @@
+{
+  "original_sha256": "REPLACE_WITH_SHA256",
+  "kernel_name_pattern": "^REPLACE_WITH_EXACT_ENTRY$",
+  "arch": "90a",
+  "grid": null,
+  "block": null,
+  "records": null,
+  "init_insert_index": 1,
+  "sites": [
+    {
+      "insert_index": null,
+      "label": "phase_begin",
+      "warp_level": true,
+      "value_reg": 255
+    },
+    {
+      "insert_index": null,
+      "label": "phase_end",
+      "warp_level": true,
+      "value_reg": 255
+    }
+  ]
+}

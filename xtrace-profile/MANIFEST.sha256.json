@@ -1,0 +1,23 @@
+{
+  "README.md": "bf49c6499b630ee921e65cb94ab1a6f14175954323d4ea4e887c3c56adbdd5c7",
+  "SKILL.md": "6f328eb5d1d50123d7bba59de969e928035f66e34c6a4c3354941416ce359dd0",
+  "agents/openai.yaml": "41f1f0b6a98cbe11bab3d718e938ad92643d2d57150c60debbd9b6bad8cbe742",
+  "examples/sites.template.json": "b3ad6be0f0d467a97e9b3a67e4b86c96ff1426e2b0acafd816653df4c559bc07",
+  "references/k-stage.md": "e5b0352281212c5816c20f0f83b5d3cb103bc0f006aca9596a543f67b1b66032",
+  "references/local-evidence.md": "ff43f42c6a61aac2c511e902214b8877b87cf819b1f51e937266424643446ddf",
+  "references/local-general.md": "7a10938597a79ace1a5efa25ac348a5e749b28876d0381cf561d070ba490fb79",
+  "references/package-api.md": "c95f756660e1196a9213f8689363d04020d0b27e9afe54a40d3b5a5d73c1c073",
+  "references/troubleshooting.md": "d79136c6c7e556fa0d4c9834585de64ca208659a144d7ba8b831cac1994e99e3",
+  "references/validation-summary.json": "90d44c0b3ecc8bc33ed698902fbc7762c5784c2931f1e0ad7169832b4b61c8e4",
+  "references/validation.md": "1124d9cb4d63dc5a128c75246f8fa9805439761163d0d89ec1269688bdba05af",
+  "requirements.txt": "87fdbfb9f37c723cb04744a733bf97d0d2511fd72ab9e911a526d00a1b9e04c5",
+  "scripts/doctor.py": "f8822d9849b37b8236ddcbcc104eeeb58db4da0dd56a4b6c3c3ce785fdb19272",
+  "scripts/splice_cubin.py": "215b694193d9e2bb09909ecc12a92d0d10cededa00fd5e121d0676f3c91ef58d",
+  "scripts/validate_warp_trace.py": "f7a288c9f34cad5314dbd8651b7edf2c1b3a7006ad81c57016b39799bfc9ac8a",
+  "scripts/xtrace_local/__init__.py": "bbeb77239a89b7a903e5dd29a123eb5dca5f6f1b951dfde821f132df52eb0f37",
+  "scripts/xtrace_local/__main__.py": "4c0396505954a3c96117469260077c922fd10f27be79020d9bd10c1bd6779b86",
+  "scripts/xtrace_local/analysis.py": "6c94e987631d8a078c5398626ce115a95686a103e7b48274780aae947c3c8a78",
+  "scripts/xtrace_local/elf.py": "fe6980719277f1ec9af12af5751a8301bd2514caef4e985d3e54eae90cbf96b7",
+  "scripts/xtrace_local/emission.py": "6dc34e39102f76acf862c832915f340e255aa373c1eea796f79d340985f0ed5d",
+  "scripts/xtrace_local/splice.py": "62f18a60d9f5c7f0b02c5f826309bd27c9eea51bf447eaf2864e1b3ab310d519"
+}

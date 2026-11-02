@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "files": 21,
+  "local_markdown_links": 15,
+  "unchanged_core_hashes": true,
+  "zip_and_tar_contents_verified": true,
+  "gpu_tests_rerun": false,
+  "note": "Packaging/documentation/helper-only change; historical runtime results retained."
+}

@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "backend": "local-sm90-compat-v1",
+  "scope": "Kernel-generic configuration and analysis; current backend gwatch0.0.35/SM90/ELF ABI8, not a universal ISA backend",
+  "unique_mimo_entries": 3,
+  "shared_entry_note": "SWA and FA1 are different runtime modes/site groups of one entry, as confirmed by the user",
+  "formal_distributed_calls": 512,
+  "formal_rank_output_checks": 4096,
+  "raw_frames": 64,
+  "raw_events": 299520,
+  "caller_liveness_regression": {
+    "automatic_no_manual_R2": true,
+    "bitwise_comparisons": 4096,
+    "slowpath_executed": true,
+    "memcheck_errors": 0
+  },
+  "adapter_sources": {
+    "elf.py": "fe6980719277f1ec9af12af5751a8301bd2514caef4e985d3e54eae90cbf96b7",
+    "analysis.py": "6c94e987631d8a078c5398626ce115a95686a103e7b48274780aae947c3c8a78",
+    "emission.py": "6dc34e39102f76acf862c832915f340e255aa373c1eea796f79d340985f0ed5d",
+    "splice.py": "62f18a60d9f5c7f0b02c5f826309bd27c9eea51bf447eaf2864e1b3ab310d519",
+    "__init__.py": "bbeb77239a89b7a903e5dd29a123eb5dca5f6f1b951dfde821f132df52eb0f37",
+    "__main__.py": "4c0396505954a3c96117469260077c922fd10f27be79020d9bd10c1bd6779b86"
+  },
+  "all_final_binaries_reproduced_identically": true,
+  "native_library_modified": false,
+  "workload_scope": {
+    "moe_swa": "genuine captured model inputs, actual TP8 SWA+MoE PDL chain",
+    "fa1_fa2": "bounded synthetic MiMo Pro-shaped inputs, actual TP8 IPC destinations and FA1+FA2 PDL chain"
+  },
+  "timing_scope": "Whole communicating chain; setup/gate/reset excluded; per-call rank MAX then paired-round median; not isolated kernel overhead or local phase error",
+  "limitations": [
+    "Only the documented SM90/version/layout/direct-call ABI is enabled",
+    "Conservative caller/role analysis can reject feasible but unsupported sites",
+    "New kernels/shapes/sites still need output/coverage/perturbation checks",
+    "Positive/negative timing variation must not be called universal profiler slowdown/speedup"
+  ],
+  "provenance": "Historical 2026-10-23 regression summary; raw workloads and logs are not distributed in this package.",
+  "paths": [
+    {
+      "path": "moe",
+      "original_registers": 96,
+      "emitted_registers_before_repair": 104,
+      "final_registers": 96,
+      "cases": 2,
+      "pass": true
+    },
+    {
+      "path": "swa",
+      "original_registers": 139,
+      "emitted_registers_before_repair": 139,
+      "final_registers": 139,
+      "cases": 2,
+      "pass": true
+    },
+    {
+      "path": "fa1",
+      "original_registers": 139,
+      "emitted_registers_before_repair": 139,
+      "final_registers": 139,
+      "cases": 2,
+      "pass": true
+    },
+    {
+      "path": "fa2",
+      "original_registers": 168,
+      "emitted_registers_before_repair": 168,
+      "final_registers": 168,
+      "cases": 2,
+      "pass": true
+    }
+  ]
+}

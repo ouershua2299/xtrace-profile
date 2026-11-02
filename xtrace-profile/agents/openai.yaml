@@ -1,0 +1,6 @@
+interface:
+  display_name: "Xtrace GPU Profiling"
+  short_description: "Profile GPU pipelines with audited local Xtrace"
+  default_prompt: "Use $xtrace-profile to trace the selected kernel K-stage with the\
+    \ local general adapter around the installed gwatch package and validate correctness\
+    \ and measurement overhead."
